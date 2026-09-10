@@ -112,7 +112,6 @@ src="https://www.facebook.com/tr?id=1830027741506251&ev=PageView&noscript=1"
 document.querySelectorAll(".buy").forEach(function(b){
   b.addEventListener("click", function(){
     if (typeof fbq === "function") {
-      fbq("track", "InitiateCheckout", {
         content_name: "OzenFit Black - " + this.dataset.plan,
         content_category: "Suplemento alimentar"
       });
