@@ -38,6 +38,19 @@ footer{text-align:center;color:#81917f;font-size:12px;padding:40px 0 80px;line-h
   #composicao .formula-showcase{grid-template-columns:1fr}
 }
 
+
+/* V4 conversão */
+.trustbar{background:#09140c;border-bottom:1px solid #203b26}.trustrow{display:flex;justify-content:center;gap:28px;flex-wrap:wrap;padding:10px 0;font-size:13px;font-weight:800;color:#d7e4d5}
+.hero{background:radial-gradient(circle at 78% 38%,rgba(124,255,56,.10),transparent 32%)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid #315a37;background:#0c1810;border-radius:999px;padding:8px 13px;font-size:12px;font-weight:900;color:#bfffa0}
+.hero-points{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0}.hero-point{background:#0b160e;border:1px solid #263f2b;border-radius:13px;padding:11px 13px;color:#d6e1d4;font-size:14px}
+.microtrust{display:flex;gap:15px;flex-wrap:wrap;margin-top:15px;color:#aebdac;font-size:12px;font-weight:700}
+.section-soft{background:#08110a;border-top:1px solid #142b19;border-bottom:1px solid #142b19}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step{background:#0c1810;border:1px solid #29452f;border-radius:18px;padding:22px}.stepn{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#7cff38;color:#071008;font-weight:900;margin-bottom:12px}.step h3{margin:0 0 8px}.step p{margin:0;color:#aebdac;line-height:1.5}
+.plan{position:relative;transition:transform .2s,border-color .2s}.plan:hover{transform:translateY(-4px);border-color:#4f7d57}.badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:#7cff38;color:#061007;border-radius:999px;padding:7px 12px;font-size:11px;font-weight:900;white-space:nowrap}.saving{font-size:12px;color:#bfffa0;font-weight:800;margin:4px 0 14px}.secure{max-width:760px;margin:25px auto 0;display:flex;justify-content:center;gap:18px;flex-wrap:wrap;color:#c9d8c6;font-size:13px}.secure span{background:#0c1810;border:1px solid #29452f;border-radius:999px;padding:9px 13px}
+.sticky-buy{display:none}
+@media(max-width:850px){.steps{grid-template-columns:1fr}.hero-points{grid-template-columns:1fr}}
+@media(max-width:520px){body{padding-bottom:72px}.hero{padding:34px 0}h1{font-size:39px}.lead{font-size:17px}.center h2{font-size:34px}.sticky-buy{display:block;position:fixed;left:10px;right:10px;bottom:10px;z-index:20;background:#7cff38;color:#061007;text-align:center;padding:15px;border-radius:999px;font-weight:900;box-shadow:0 8px 30px rgba(0,0,0,.45)}}
 </style>
 <!-- Meta Pixel Code -->
 <script>
@@ -61,11 +74,10 @@ src="https://www.facebook.com/tr?id=1830027741506251&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
 
-</head><body>
+</head><body><div class="trustbar"><div class="w trustrow"><span>✓ Frete grátis para todo o Brasil</span><span>✓ Compra concluída em checkout seguro</span><span>✓ 4 opções de kit</span></div></div>
 <header><div class="w nav"><div class="logo">OzenFit <span class="g">Black</span></div><a class="btn" href="#ofertas">VER OPÇÕES</a></div></header>
-<section class="hero"><div class="w grid"><div><div class="g"><b>SUPLEMENTO ALIMENTAR EM CÁPSULAS</b></div><h1>Seu cuidado diário em uma fórmula <span class="g">premium.</span></h1>
-<p class="lead">OzenFit Black reúne oito ingredientes em uma apresentação prática para complementar sua rotina. Cada frasco contém 60 cápsulas.</p><a class="btn" href="#ofertas">ESCOLHER MINHA OPÇÃO</a>
-<div style="margin-top:16px;font-weight:900;color:#7cff38">🚚 FRETE GRÁTIS PARA TODO O BRASIL</div></div>
+<section class="hero"><div class="w grid"><div><div class="eyebrow">● SUPLEMENTO ALIMENTAR EM CÁPSULAS</div><h1>Seu cuidado diário em uma fórmula <span class="g">premium.</span></h1>
+<p class="lead">OzenFit Black reúne oito ingredientes em uma apresentação prática para complementar sua rotina. Cada frasco contém 60 cápsulas.</p><div class="hero-points"><div class="hero-point">✓ 8 componentes na fórmula</div><div class="hero-point">✓ 60 cápsulas por frasco</div><div class="hero-point">✓ Kits de 1 a 10 meses</div><div class="hero-point">✓ Frete grátis para todo o Brasil</div></div><a class="btn" href="#ofertas">VER KITS E VALORES</a><div class="microtrust"><span>🔒 Checkout seguro</span><span>🚚 Frete grátis</span><span>💳 Condições no checkout</span></div></div>
 <div><img class="pic" src="assets/hero.png" alt="OzenFit Black"></div></div></section>
 <section id="composicao">
 <div class="w">
@@ -95,19 +107,19 @@ src="https://www.facebook.com/tr?id=1830027741506251&ev=PageView&noscript=1"
 </div>
 </section>
 <section><div class="w grid"><img class="pic" src="assets/ingredientes.png" alt="Composição OzenFit Black"><div><span class="g"><b>OZENFIT BLACK</b></span><h2 style="font-size:42px">Praticidade para complementar sua rotina.</h2><p class="lead">Escolha abaixo a quantidade que faz mais sentido para você. Cada opção direciona para seu respectivo checkout.</p><a class="btn" href="#ofertas">VER OFERTAS</a></div></div></section>
-<section id="ofertas"><div class="w"><div class="center"><span class="g"><b>ESCOLHA SUA OPÇÃO</b></span><h2>Quanto maior o kit, menor o valor por frasco</h2><p>O pagamento é concluído no ambiente do checkout.</p></div>
+<section class="section-soft"><div class="w"><div class="center"><span class="g"><b>COMPRA SIMPLES</b></span><h2>Escolha seu kit em poucos passos</h2><p>Você confere a opção que prefere aqui e conclui o pedido no ambiente de checkout.</p></div><div class="steps"><div class="step"><div class="stepn">1</div><h3>Escolha o kit</h3><p>Compare quantidade e valor por frasco para decidir qual opção combina com você.</p></div><div class="step"><div class="stepn">2</div><h3>Vá para o checkout</h3><p>Ao tocar em comprar, você é direcionado para a página de pagamento correspondente.</p></div><div class="step"><div class="stepn">3</div><h3>Confira antes de pagar</h3><p>Revise as condições finais do pedido e os dados apresentados no checkout.</p></div></div></div></section><section id="ofertas"><div class="w"><div class="center"><span class="g"><b>ESCOLHA SUA OPÇÃO</b></span><h2>Quanto maior o kit, menor o valor por frasco</h2><p>O pagamento é concluído no ambiente do checkout.</p></div>
 <div class="plans">
 <div class="plan"><h3>1 mês</h3><div>1 frasco</div><div class="g" style="margin-top:12px"><b>🚚 FRETE GRÁTIS</b></div><div class="price">R$197</div><div class="unit">R$197 por frasco</div><a class="btn buy" data-plan="1-mes" href="https://seguro.payt.com.br/a/Mz4vNLREiP046eqO">COMPRAR</a></div>
-<div class="plan"><h3>3 meses</h3><div>3 frascos</div><div class="g" style="margin-top:12px"><b>🚚 FRETE GRÁTIS</b></div><div class="price">R$297</div><div class="unit">R$99 por frasco</div><a class="btn buy" data-plan="3-meses" href="https://seguro.payt.com.br/a/jVrvY8P4hBwE5W72">COMPRAR</a></div>
-<div class="plan hot"><div class="g"><b>EM DESTAQUE</b></div><h3>5 meses</h3><div>5 frascos</div><div class="g" style="margin-top:12px"><b>🚚 FRETE GRÁTIS</b></div><div class="price">R$397</div><div class="unit">R$79,40 por frasco</div><a class="btn buy" data-plan="5-meses" href="https://seguro.payt.com.br/a/7BzW7y45t3xX6o2R">QUERO 5 MESES</a></div>
-<div class="plan"><h3>10 meses</h3><div>10 frascos</div><div class="g" style="margin-top:12px"><b>🚚 FRETE GRÁTIS</b></div><div class="price">R$697</div><div class="unit">R$69,70 por frasco</div><a class="btn buy" data-plan="10-meses" href="https://seguro.payt.com.br/a/P8zo0bELf1XqBWyV">COMPRAR</a></div>
-</div><p class="muted" style="text-align:center;font-size:12px;margin-top:22px">🚚 Frete grátis para todo o Brasil. Condições finais de pagamento e disponibilidade são apresentadas no checkout.</p></div></section>
+<div class="plan"><h3>3 meses</h3><div>3 frascos</div><div class="g" style="margin-top:12px"><b>🚚 FRETE GRÁTIS</b></div><div class="price">R$297</div><div class="unit">R$99 por frasco</div><div class="saving">Economia no valor por frasco</div><a class="btn buy" data-plan="3-meses" href="https://seguro.payt.com.br/a/jVrvY8P4hBwE5W72">COMPRAR</a></div>
+<div class="plan hot"><div class="badge">MELHOR CUSTO-BENEFÍCIO</div><div class="g"><b>MAIS ESCOLHIDO</b></div><h3>5 meses</h3><div>5 frascos</div><div class="g" style="margin-top:12px"><b>🚚 FRETE GRÁTIS</b></div><div class="price">R$397</div><div class="unit">R$79,40 por frasco</div><div class="saving">Valor por frasco ainda menor</div><a class="btn buy" data-plan="5-meses" href="https://seguro.payt.com.br/a/7BzW7y45t3xX6o2R">QUERO 5 MESES</a></div>
+<div class="plan"><h3>10 meses</h3><div>10 frascos</div><div class="g" style="margin-top:12px"><b>🚚 FRETE GRÁTIS</b></div><div class="price">R$697</div><div class="unit">R$69,70 por frasco</div><div class="saving">Menor valor por frasco</div><a class="btn buy" data-plan="10-meses" href="https://seguro.payt.com.br/a/P8zo0bELf1XqBWyV">COMPRAR</a></div>
+</div><div class="secure"><span>🔒 Checkout protegido</span><span>🚚 Frete grátis</span><span>✓ Revise tudo antes de concluir</span></div><p class="muted" style="text-align:center;font-size:12px;margin-top:22px">Frete grátis para todo o Brasil. Condições finais de pagamento e disponibilidade são apresentadas no checkout.</p></div></section>
 <section><div class="w"><div class="center"><span class="g"><b>DÚVIDAS</b></span><h2>Perguntas frequentes</h2></div>
 <details><summary>Quantas cápsulas vêm em cada frasco?</summary><p>Cada frasco contém 60 cápsulas.</p></details>
 <details><summary>Para quem é destinado?</summary><p>A apresentação informa uso adulto. Em caso de condições de saúde, gravidez, amamentação ou uso de medicamentos, procure orientação profissional antes do consumo.</p></details>
 <details><summary>O frete é grátis?</summary><p>Sim. O OzenFit Black possui frete grátis para todo o Brasil.</p></details><details><summary>Onde concluo o pagamento?</summary><p>O botão de cada opção direciona ao respectivo checkout, onde você confere as condições finais antes de concluir a compra.</p></details>
 </div></section>
-<footer><div class="w">OzenFit Black é apresentado como suplemento alimentar. Esta página não substitui orientação médica ou nutricional. Resultados e necessidades individuais podem variar.<br>© 2026 • Página informativa de oferta.</div></footer>
+<a class="sticky-buy" href="#ofertas">VER KITS E VALORES</a><footer><div class="w">OzenFit Black é apresentado como suplemento alimentar. Esta página não substitui orientação médica ou nutricional. Resultados e necessidades individuais podem variar.<br>© 2026 • Página informativa de oferta.</div></footer>
 <script>
 document.querySelectorAll(".buy").forEach(function(b){
   b.addEventListener("click", function(){
