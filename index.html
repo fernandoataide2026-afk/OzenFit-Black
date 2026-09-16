@@ -1,5 +1,5 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>OzenFit Black</title><style>
+<title>ZenFit Caps | Oferta</title><style>
 *{box-sizing:border-box}body{margin:0;background:#050b06;color:#fff;font-family:Arial,sans-serif}a{text-decoration:none}.w{width:min(1100px,92%);margin:auto}
 header{padding:18px 0;border-bottom:1px solid #24442a;position:sticky;top:0;background:#050b06eF;z-index:9}.nav{display:flex;justify-content:space-between;align-items:center}.logo{font-size:26px;font-weight:900}.g{color:#7cff38}
 .btn{display:inline-block;background:#7cff38;color:#061007;padding:15px 23px;border-radius:999px;font-weight:900}.hero{padding:55px 0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:38px;align-items:center}
@@ -53,6 +53,51 @@ footer{text-align:center;color:#81917f;font-size:12px;padding:40px 0 80px;line-h
 @media(max-width:520px){body{padding-bottom:72px}.hero{padding:34px 0}h1{font-size:39px}.lead{font-size:17px}.center h2{font-size:34px}.sticky-buy{display:block;position:fixed;left:10px;right:10px;bottom:10px;z-index:20;background:#7cff38;color:#061007;text-align:center;padding:15px;border-radius:999px;font-weight:900;box-shadow:0 8px 30px rgba(0,0,0,.45)}}
 
     .whatsapp-float{position:fixed;right:18px;bottom:86px;z-index:9999;display:flex;align-items:center;gap:10px;background:#25D366;color:#fff;text-decoration:none;font-weight:700;padding:12px 16px;border-radius:999px;box-shadow:0 10px 30px rgba(0,0,0,.22);transition:.2s ease;font-size:14px}.whatsapp-float:hover{transform:translateY(-2px);filter:brightness(.98)}.whatsapp-float .wa-icon{font-size:20px;line-height:1}.whatsapp-float .wa-text{white-space:nowrap}@media(max-width:640px){.whatsapp-float{right:14px;bottom:82px;padding:12px 14px}.whatsapp-float .wa-text{display:none}}
+
+/* V5 - ofertas visuais por quantidade */
+.plans{align-items:stretch}
+.plan{overflow:hidden;padding:0;background:linear-gradient(180deg,#0f2014 0%,#0b160e 100%)}
+.plan .plan-head{padding:22px 18px 12px;background:linear-gradient(180deg,#0c3b31,#0b241b);border-bottom:1px solid #315a37}
+.plan .plan-head h3{font-size:30px;margin:0 0 8px;text-transform:uppercase}
+.plan .deal{display:inline-block;background:#ffc331;color:#161006;border-radius:12px;padding:9px 12px;font-size:15px;font-weight:900;line-height:1.15;box-shadow:0 6px 18px rgba(255,195,49,.15)}
+.plan-body{display:flex;flex-direction:column;flex:1;padding:18px}
+.bundle-visual{position:relative;height:205px;margin:0 auto 8px;width:100%;display:flex;align-items:flex-end;justify-content:center;overflow:hidden}
+.bundle-visual img{position:absolute;width:92px;max-height:175px;object-fit:contain;border-radius:12px;filter:drop-shadow(0 12px 16px rgba(0,0,0,.36))}
+.bundle-visual .b1{z-index:5;transform:translateX(-34px) scale(1.02)}
+.bundle-visual .b2{z-index:4;transform:translateX(34px) scale(.98)}
+.bundle-visual .b3{z-index:3;transform:translateX(-70px) scale(.90)}
+.bundle-visual .b4{z-index:2;transform:translateX(70px) scale(.88)}
+.bundle-visual .b5{z-index:1;transform:translateX(-100px) scale(.80)}
+.bundle-visual .b6{z-index:1;transform:translateX(100px) scale(.80)}
+.bundle-visual .b7{z-index:0;transform:translateX(-120px) scale(.73)}
+.bundle-visual .b8{z-index:0;transform:translateX(120px) scale(.73)}
+.bundle-visual .b9{z-index:0;transform:translateX(-145px) scale(.66)}
+.bundle-visual .b10{z-index:0;transform:translateX(145px) scale(.66)}
+.bundle-visual .b11{z-index:0;transform:translateX(0) translateY(-26px) scale(.74);opacity:.94}
+.plan .price{font-size:42px;color:#fff;margin:8px 0 2px}
+.plan .unit{font-size:13px;margin-bottom:10px}
+.plan .saving{min-height:18px;color:#ffdc73}
+.plan .btn{width:100%;margin-top:14px}
+.plan.hot{border:2px solid #ffc331;box-shadow:0 0 0 1px rgba(255,195,49,.1),0 20px 48px rgba(0,0,0,.28)}
+.plan.hot .plan-head{background:linear-gradient(180deg,#145c48,#0d3126)}
+.plan.hot .badge{background:#ffc331;color:#171006;top:8px;z-index:8}
+.plan.hot .plan-head{padding-top:45px}
+.extra-line{font-size:13px;color:#c9d7c7;margin-top:8px;font-weight:800}
+@media(max-width:850px){.bundle-visual{height:220px}.bundle-visual img{width:105px}}
+@media(max-width:520px){
+  .plan .plan-head h3{font-size:28px}
+  .bundle-visual{height:245px}
+  .bundle-visual img{width:120px;max-height:210px}
+  .plan{border-radius:22px}
+}
+
+
+/* V7 - hero premium sem fundo cinza */
+.hero-product-wrap{position:relative;min-height:470px;display:grid;place-items:center;overflow:hidden;border-radius:30px;background:radial-gradient(circle at 50% 48%,rgba(72,255,45,.16),rgba(7,21,18,.15) 55%,transparent 72%)}
+.hero-product-wrap:before{content:"";position:absolute;width:70%;height:70%;border-radius:50%;background:#62ff32;filter:blur(90px);opacity:.08}
+.hero-product-img{position:relative;display:block;width:100%;max-width:620px;height:auto;border-radius:28px;box-shadow:0 28px 80px rgba(0,0,0,.34)}
+@media(max-width:850px){.hero-product-wrap{min-height:auto}.hero-product-img{max-width:620px}}
+
 </style>
 <!-- Meta Pixel Code -->
 <script>
@@ -67,7 +112,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 fbq('init', '1830027741506251');
 fbq('track', 'PageView');
 fbq('track', 'ViewContent', {
-  content_name: 'OzenFit Black',
+  content_name: 'ZenFit Caps',
   content_category: 'Suplemento alimentar'
 });
 </script>
@@ -76,58 +121,42 @@ src="https://www.facebook.com/tr?id=1830027741506251&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
 
-</head><body><div class="trustbar"><div class="w trustrow"><span>✓ Frete grátis para todo o Brasil</span><span>✓ Compra concluída em checkout seguro</span><span>✓ 4 opções de kit</span></div></div>
-<header><div class="w nav"><div class="logo">OzenFit <span class="g">Black</span></div><a class="btn" href="#ofertas">VER OPÇÕES</a></div></header>
+</head><body><div class="trustbar"><div class="w trustrow"><span>✓ Confira as condições no checkout</span><span>✓ Compra concluída em checkout seguro</span><span>✓ 4 opções de kit</span></div></div>
+<header><div class="w nav"><div class="logo">ZenFit <span class="g">Caps</span></div><a class="btn" href="#ofertas">VER OPÇÕES</a></div></header>
 <section class="hero"><div class="w grid"><div><div class="eyebrow">● SUPLEMENTO ALIMENTAR EM CÁPSULAS</div><h1>Seu cuidado diário em uma fórmula <span class="g">premium.</span></h1>
-<p class="lead">OzenFit Black reúne oito ingredientes em uma apresentação prática para complementar sua rotina. Cada frasco contém 60 cápsulas.</p><div class="hero-points"><div class="hero-point">✓ 8 componentes na fórmula</div><div class="hero-point">✓ 60 cápsulas por frasco</div><div class="hero-point">✓ Kits de 1 a 10 meses</div><div class="hero-point">✓ Frete grátis para todo o Brasil</div></div><a class="btn" href="#ofertas">VER KITS E VALORES</a><div class="microtrust"><span>🔒 Checkout seguro</span><span>🚚 Frete grátis</span><span>💳 Condições no checkout</span></div></div>
-<div><img class="pic" src="assets/hero.png" alt="OzenFit Black"></div></div></section>
-<section id="composicao">
-<div class="w">
-<div class="center">
-<span class="g"><b>FÓRMULA PREMIUM</b></span>
-<h2>Ingredientes que fazem a diferença na sua rotina</h2>
-<p>Uma combinação de oito componentes em uma apresentação prática para o dia a dia.</p>
-</div>
-
-<div class="formula-showcase">
-<div class="formula-side">
-<div class="formula-item"><div class="benefit">Mais saciedade</div><div class="name">Psyllium</div><div class="desc">Fibra vegetal presente na fórmula.</div></div>
-<div class="formula-item"><div class="benefit">Ação antioxidante</div><div class="name">Curcumina</div><div class="desc">Composto naturalmente presente na cúrcuma.</div></div>
-<div class="formula-item"><div class="benefit">Mais energia</div><div class="name">Guaraná em pó</div><div class="desc">Ingrediente vegetal tradicionalmente associado à disposição.</div></div>
-<div class="formula-item"><div class="benefit">Bem-estar</div><div class="name">Triptofano</div><div class="desc">Aminoácido que integra a composição do produto.</div></div>
-</div>
-
-<div class="formula-product"></div>
-
-<div class="formula-side">
-<div class="formula-item"><div class="benefit">Melhor absorção</div><div class="name">Piperina</div><div class="desc">Composto naturalmente encontrado na pimenta-preta.</div></div>
-<div class="formula-item"><div class="benefit">Apoio ao metabolismo</div><div class="name">Ácido clorogênico</div><div class="desc">Composto encontrado em diferentes fontes vegetais.</div></div>
-<div class="formula-item"><div class="benefit">Ação antioxidante</div><div class="name">Antocianinas</div><div class="desc">Pigmentos naturais presentes em diversos vegetais.</div></div>
-<div class="formula-item"><div class="benefit">Metabolismo de nutrientes</div><div class="name">Picolinato de cromo</div><div class="desc">Fonte de cromo utilizada na formulação.</div></div>
-</div>
-</div>
-</div>
-</section>
-<section><div class="w grid"><img class="pic" src="assets/ingredientes.png" alt="Composição OzenFit Black"><div><span class="g"><b>OZENFIT BLACK</b></span><h2 style="font-size:42px">Praticidade para complementar sua rotina.</h2><p class="lead">Escolha abaixo a quantidade que faz mais sentido para você. Cada opção direciona para seu respectivo checkout.</p><a class="btn" href="#ofertas">VER OFERTAS</a></div></div></section>
-<section class="section-soft"><div class="w"><div class="center"><span class="g"><b>COMPRA SIMPLES</b></span><h2>Escolha seu kit em poucos passos</h2><p>Você confere a opção que prefere aqui e conclui o pedido no ambiente de checkout.</p></div><div class="steps"><div class="step"><div class="stepn">1</div><h3>Escolha o kit</h3><p>Compare quantidade e valor por frasco para decidir qual opção combina com você.</p></div><div class="step"><div class="stepn">2</div><h3>Vá para o checkout</h3><p>Ao tocar em comprar, você é direcionado para a página de pagamento correspondente.</p></div><div class="step"><div class="stepn">3</div><h3>Confira antes de pagar</h3><p>Revise as condições finais do pedido e os dados apresentados no checkout.</p></div></div></div></section><section id="ofertas"><div class="w"><div class="center"><span class="g"><b>ESCOLHA SUA OPÇÃO</b></span><h2>Quanto maior o kit, menor o valor por frasco</h2><p>O pagamento é concluído no ambiente do checkout.</p></div>
+<p class="lead">ZenFit Caps é um suplemento alimentar em cápsulas, com uma fórmula que reúne Vitamina B6, Cromo, Taurina, Café Verde e Inositol. Cada frasco contém 60 cápsulas de 500 mg.</p><div class="hero-points"><div class="hero-point">✓ Fórmula em cápsulas</div><div class="hero-point">✓ 60 cápsulas por frasco</div><div class="hero-point">✓ Ofertas com pote extra</div><div class="hero-point">✓ Confira as condições no checkout</div></div><a class="btn" href="#ofertas">VER KITS E VALORES</a><div class="microtrust"><span>🔒 Checkout seguro</span><span>🚚 Frete grátis</span><span>💳 Condições no checkout</span></div></div>
+<div class="hero-product-wrap"><img class="hero-product-img" src="assets/hero-zenfit.png" alt="ZenFit Caps - apresentação do produto"></div></div></section>
+<section class="section-soft"><div class="w"><div class="center"><span class="g"><b>COMPRA SIMPLES</b></span><h2>Escolha seu kit em poucos passos</h2><p>Você confere a opção que prefere aqui e conclui o pedido no ambiente de checkout.</p></div><div class="steps"><div class="step"><div class="stepn">1</div><h3>Escolha o kit</h3><p>Compare quantidade e valor por frasco para decidir qual opção combina com você.</p></div><div class="step"><div class="stepn">2</div><h3>Vá para o checkout</h3><p>Ao tocar em comprar, você é direcionado para a página de pagamento correspondente.</p></div><div class="step"><div class="stepn">3</div><h3>Confira antes de pagar</h3><p>Revise as condições finais do pedido e os dados apresentados no checkout.</p></div></div></div></section><section id="ofertas"><div class="w"><div class="center"><span class="g"><b>ESCOLHA SUA OPÇÃO</b></span><h2>Ofertas promocionais com pote extra</h2><p>🚚 <b>Frete grátis via PAC • entrega em até 6 dias</b></p><p>O pagamento é concluído no ambiente do checkout.</p></div>
 <div class="plans">
-<div class="plan"><h3>1 mês</h3><div>1 frasco</div><div class="g" style="margin-top:12px"><b>🚚 FRETE GRÁTIS</b></div><div class="price">R$197</div><div class="unit">R$197 por frasco</div><a class="btn buy" data-plan="1-mes" href="https://seguro.payt.com.br/a/Mz4vNLREiP046eqO">COMPRAR</a></div>
-<div class="plan"><h3>3 meses</h3><div>3 frascos</div><div class="g" style="margin-top:12px"><b>🚚 FRETE GRÁTIS</b></div><div class="price">R$297</div><div class="unit">R$99 por frasco</div><div class="saving">Economia no valor por frasco</div><a class="btn buy" data-plan="3-meses" href="https://seguro.payt.com.br/a/jVrvY8P4hBwE5W72">COMPRAR</a></div>
-<div class="plan hot"><div class="badge">MELHOR CUSTO-BENEFÍCIO</div><div class="g"><b>MAIS ESCOLHIDO</b></div><h3>5 meses</h3><div>5 frascos</div><div class="g" style="margin-top:12px"><b>🚚 FRETE GRÁTIS</b></div><div class="price">R$397</div><div class="unit">R$79,40 por frasco</div><div class="saving">Valor por frasco ainda menor</div><a class="btn buy" data-plan="5-meses" href="https://seguro.payt.com.br/a/7BzW7y45t3xX6o2R">QUERO 5 MESES</a></div>
-<div class="plan"><h3>10 meses</h3><div>10 frascos</div><div class="g" style="margin-top:12px"><b>🚚 FRETE GRÁTIS</b></div><div class="price">R$697</div><div class="unit">R$69,70 por frasco</div><div class="saving">Menor valor por frasco</div><a class="btn buy" data-plan="10-meses" href="https://seguro.payt.com.br/a/P8zo0bELf1XqBWyV">COMPRAR</a></div>
-</div><div class="secure"><span>🔒 Checkout protegido</span><span>🚚 Frete grátis</span><span>✓ Revise tudo antes de concluir</span></div><p class="muted" style="text-align:center;font-size:12px;margin-top:22px">Frete grátis para todo o Brasil. Condições finais de pagamento e disponibilidade são apresentadas no checkout.</p></div></section>
+<div class="plan">
+  <div class="plan-head"><h3>2 POTES</h3><div class="deal">COMPRE 1<br>+ LEVE 1 EXTRA</div></div>
+  <div class="plan-body"><div class="bundle-visual"><img src="assets/kit-2.png" alt="Oferta ZenFit Caps" style="width:100%;height:auto;object-fit:contain;border-radius:16px"></div><div class="price">R$197</div><div class="unit">R$98,50 por pote</div><div class="extra-line">Você recebe 2 potes no total</div><a class="btn buy" data-plan="2-potes-1mais1" href="https://ev.braip.com/campanhas/cpa/camgmdek4">COMPRAR AGORA</a></div>
+</div>
+<div class="plan">
+  <div class="plan-head"><h3>4 POTES</h3><div class="deal">COMPRE 3<br>+ LEVE 1 EXTRA</div></div>
+  <div class="plan-body"><div class="bundle-visual"><img src="assets/kit-4.png" alt="Oferta ZenFit Caps" style="width:100%;height:auto;object-fit:contain;border-radius:16px"></div><div class="price">R$297</div><div class="unit">R$74,25 por pote</div><div class="extra-line">Você recebe 4 potes no total</div><a class="btn buy" data-plan="4-potes-3mais1" href="https://ev.braip.com/campanhas/cpa/cam91z7jk">COMPRAR AGORA</a></div>
+</div>
+<div class="plan hot">
+  <div class="badge">⭐ MAIS ESCOLHIDO</div><div class="plan-head"><h3>6 POTES</h3><div class="deal">COMPRE 5<br>+ LEVE 1 EXTRA</div></div>
+  <div class="plan-body"><div class="bundle-visual"><img src="assets/kit-6.png" alt="Oferta ZenFit Caps" style="width:100%;height:auto;object-fit:contain;border-radius:16px"></div><div class="price">R$397</div><div class="unit">R$66,17 por pote</div><div class="saving">MELHOR CUSTO-BENEFÍCIO</div><div class="extra-line">Você recebe 6 potes no total</div><a class="btn buy" data-plan="6-potes-5mais1" href="https://ev.braip.com/campanhas/cpa/came0o1j7">QUERO LEVAR 6</a></div>
+</div>
+<div class="plan">
+  <div class="plan-head"><h3>11 POTES</h3><div class="deal">COMPRE 10<br>+ LEVE 1 EXTRA</div></div>
+  <div class="plan-body"><div class="bundle-visual"><img src="assets/kit-11.png" alt="Oferta ZenFit Caps" style="width:100%;height:auto;object-fit:contain;border-radius:16px"></div><div class="price">R$697</div><div class="unit">R$63,36 por pote</div><div class="saving">MENOR VALOR POR POTE</div><div class="extra-line">Você recebe 11 potes no total</div><a class="btn buy" data-plan="11-potes-10mais1" href="https://ev.braip.com/campanhas/cpa/cam0m2e4e">COMPRAR AGORA</a></div>
+</div>
+</div><div class="secure"><span>🔒 Checkout protegido</span><span>🚚 Frete grátis</span><span>✓ Revise tudo antes de concluir</span></div><p class="muted" style="text-align:center;font-size:12px;margin-top:22px">Valores exibidos conforme as ofertas informadas. Condições finais de pagamento, entrega e disponibilidade são apresentadas no checkout da Braip.</p></div></section>
 <section><div class="w"><div class="center"><span class="g"><b>DÚVIDAS</b></span><h2>Perguntas frequentes</h2></div>
 <details><summary>Quantas cápsulas vêm em cada frasco?</summary><p>Cada frasco contém 60 cápsulas.</p></details>
 <details><summary>Para quem é destinado?</summary><p>A apresentação informa uso adulto. Em caso de condições de saúde, gravidez, amamentação ou uso de medicamentos, procure orientação profissional antes do consumo.</p></details>
-<details><summary>O frete é grátis?</summary><p>Sim. O OzenFit Black possui frete grátis para todo o Brasil.</p></details><details><summary>Onde concluo o pagamento?</summary><p>O botão de cada opção direciona ao respectivo checkout, onde você confere as condições finais antes de concluir a compra.</p></details>
+<details><summary>Como funciona a entrega?</summary><p>O checkout informa frete grátis via PAC, com prazo de entrega de até 6 dias. Confira os dados e o prazo exibidos para seu endereço antes de concluir o pedido.</p></details><details><summary>Onde concluo o pagamento?</summary><p>O botão de cada opção direciona ao respectivo checkout, onde você confere as condições finais antes de concluir a compra.</p></details>
 </div></section>
-<a class="sticky-buy" href="#ofertas">VER KITS E VALORES</a><footer><div class="w">OzenFit Black é apresentado como suplemento alimentar. Esta página não substitui orientação médica ou nutricional. Resultados e necessidades individuais podem variar.<br>© 2026 • Página informativa de oferta.</div></footer>
+<a class="sticky-buy" href="#ofertas">VER KITS E VALORES</a><footer><div class="w">ZenFit Caps é apresentado como suplemento alimentar. Esta página não substitui orientação médica ou nutricional. Resultados e necessidades individuais podem variar.<br>© 2026 • Página informativa de oferta.</div></footer>
 <script>
 document.querySelectorAll(".buy").forEach(function(b){
   b.addEventListener("click", function(){
     if (typeof fbq === "function") {
       fbq("track", "InitiateCheckout", {
-        content_name: "OzenFit Black - " + this.dataset.plan,
+        content_name: "ZenFit Caps - " + this.dataset.plan,
         content_category: "Suplemento alimentar"
       });
       fbq("trackCustom", "ClickCheckout", {plan:this.dataset.plan});
@@ -136,7 +165,7 @@ document.querySelectorAll(".buy").forEach(function(b){
 });
 </script>
 
-<a class="whatsapp-float" id="whatsappSupport" href="https://wa.me/5528999728689?text=Ol%C3%A1%21%20Vim%20pela%20p%C3%A1gina%20do%20OzenFit%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20antes%20de%20comprar." target="_blank" rel="noopener" aria-label="Falar com suporte pelo WhatsApp">
+<a class="whatsapp-float" id="whatsappSupport" href="https://wa.me/5528999728689?text=Ol%C3%A1%21%20Vim%20pela%20p%C3%A1gina%20do%20ZenFit%20Caps%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20antes%20de%20comprar." target="_blank" rel="noopener" aria-label="Falar com suporte pelo WhatsApp">
   <span class="wa-icon">☎</span><span class="wa-text">Dúvidas? Fale conosco</span>
 </a>
 <script>
